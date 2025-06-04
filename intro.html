@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>體驗說明頁</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #fdfcfb;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 100px auto;
+    }
+    button {
+      font-size: 20px;
+      padding: 12px 30px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>歡迎體驗！</h1>
+    <p>這是一個互動式 AR 作品，請使用手機打開，並允許相機存取。</p>
+    <p>按下下方按鈕後將進入作品主畫面。</p>
+    <button onclick="start()">開始體驗</button>
+  </div>
+
+  <script>
+    function start() {
+      window.location.href = "https://yjgigi.github.io/0531webar/";
+    }
+  </script>
+</body>
+</html>
